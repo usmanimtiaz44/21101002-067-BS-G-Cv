@@ -1,0 +1,286 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: broder-box;
+  font-family: sans-serif;
+  overflow-x: hidden;
+}
+
+.container {
+  height: 100%;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.first-container {
+  width: 100vw;
+  height: 250px;
+  background-color: #313c4e;
+  overflow-y: hidden;
+}
+.second-container {
+  width: 100vw;
+  height: 250px;
+  background-color: #232a34;
+}
+.third-container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+}
+
+.info-block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 50px;
+  overflow-y: hidden;
+}
+
+.info-block-img {
+  overflow-y: hidden;
+  border: 5px solid;
+  border-color: #508b93;
+  border-radius: 50%;
+}
+
+.profile-img {
+  width: 120px;
+  height: 120px;
+  margin-bottom: -5px;
+}
+
+.headline-name {
+  color: white;
+  font-size: 60px;
+  font-weight: normal;
+}
+.subline-name {
+  color: #577887;
+  font-weight: normal;
+  font-size: 30px;
+  margin-top: 5px;
+}
+
+.para {
+  margin-top: 20px;
+  color: white;
+}
+.para-2 {
+  color: white;
+}
+
+.secondary-info {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+  display: flex;
+}
+
+.secondary-info-1 {
+  flex: 50%;
+}
+
+.secondary-info-2 {
+  flex: 50%;
+}
+
+.mail-icon,
+.location-icon,
+.linkedin-icon,
+.facebook-icon,
+.mobile-icon,
+.site-icon,
+.twitter-icon,
+.insta-icon {
+  height: 20px;
+  width: 20px;
+  margin-right: 20px;
+  filter: brightness(0) invert(1);
+}
+
+.location-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.mail,
+.location,
+.linkedin,
+.facebook,
+.mobile,
+.site,
+.twitter,
+.insta {
+  display: flex;
+  flex-direction: row;
+  margin-top: 25px;
+}
+
+.mail-text,
+.location-text-1,
+.location-text-2,
+.linkedin-text,
+.facebook-text,
+.mobile-text,
+.site-text,
+.twitter-text,
+.insta-text {
+  color: white;
+}
+
+.third-info-1 {
+  flex: 50%;
+  margin-top: 50px;
+  margin-left: 50px;
+  height: 1200px;
+}
+
+.third-info-2 {
+  flex: 50%;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  height: 1200px;
+}
+
+.work-head,
+.certificates-head,
+.education-head,
+.skills-head {
+  color: #478c91;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.line {
+  height: 5px;
+  width: 400px;
+  margin-bottom: 30px;
+  background-color: #478c91;
+}
+
+.work-1-head,
+.work-2-head,
+.education-1-head,
+.education-2-head,
+.education-3-head {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.work-1-subhead,
+.work-2-subhead,
+.education-1-subhead,
+.education-2-subhead,
+.education-3-subhead {
+  font-weight: 400;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.work-1-city,
+.work-2-city,
+.education-1-city,
+.education-2-city,
+.education-3-city {
+  color: #478c91;
+  font-style: italic;
+}
+
+.work-1-detail,
+.work-2-detail {
+  margin-top: 5px;
+  margin-bottom: 40px;
+  color: #aba9a4;
+  font-style: italic;
+  font-size: 15px;
+}
+
+.certificates,
+.education {
+  margin-top: 50px;
+}
+
+.certificates-data,
+.organization-data {
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.skills-items {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.skill-item {
+  background-color: #9d9faa;
+  height: 30px;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  margin-right: 10px;
+  color: white;
+}
+.organization-head,
+.honors-head,
+.language-head,
+.interest-head {
+  margin-top: 70px;
+  color: #478c91;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.honors-1-head,
+.honors-2-head {
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.honors-1-detail,
+.honors-2-detail {
+  margin-top: 5px;
+  margin-bottom: 40px;
+  color: #aba9a4;
+  font-style: italic;
+  font-size: 15px;
+}
+.language-items,
+.interest-items {
+  display: flex;
+  flex-direction: row;
+}
+
+.language-item {
+  margin-right: 70px;
+}
+
+.item-head {
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.item-subhead {
+  color: #478c91;
+  font-style: italic;
+}
+
+.interest-item {
+  border: 1px solid black;
+  height: 40px;
+  width: 130px;
+  margin-right: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
